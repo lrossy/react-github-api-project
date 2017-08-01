@@ -117,3 +117,14 @@ h1,h2,h3,h4,h5,h6 {
     margin: 1px 1px 1px 10px;
     padding: 5px;
 }
+
+.github-user-container, .github-user-container a {
+    height: 50px;
+    display: block;
+}
+.github-user-container img{
+    height: 50px;
+    border-radius: 25px;
+    vertical-align:middle;
+    margin: 0 5px
+}

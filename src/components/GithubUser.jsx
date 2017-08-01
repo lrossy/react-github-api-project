@@ -9,10 +9,13 @@ class GithubUser extends React.Component {
 
     render() {
         return (
-            <Link to={"/user/" + this.props.user.login}>
-                <img alt="" src={this.props.user.avatar_url}/>
-                {this.props.user.login}
-            </Link>
+            <div className="github-user-container">
+                <Link to={"/user/" + this.props.user.login}>
+                    <img alt="" src={this.props.user.avatar_url}/>
+                    <span>{this.props.user.login}</span>
+                </Link>
+            </div>
+
         );
     }
 };
