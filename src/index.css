@@ -105,3 +105,15 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0;
     white-space: nowrap;
 }
+
+.repo-link{
+    text-decoration: none;
+}
+.repo-link div{
+    display: inline-block;
+}
+.repo-stars{
+    border: 1px solid black;
+    margin: 1px 1px 1px 10px;
+    padding: 5px;
+}
